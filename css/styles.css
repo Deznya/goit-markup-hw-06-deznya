@@ -762,6 +762,11 @@ button {
   height: 11px;
 }
 
+.modal-close-btn:hover,
+.modal-close-btn:focus {
+  fill: var(--button-background);
+}
+
 .form-title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
