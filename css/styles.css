@@ -824,7 +824,7 @@ margin-bottom: 12px;
 }
 
 .modal-link {
-  color: var(--accent-text-color);
+  color: var(--button-background);
   margin-left: 3px;
 
   transition-property: border-color;
@@ -833,8 +833,8 @@ margin-bottom: 12px;
 }
 .modal-link:hover,
 .modal-link:focus {
-  text-decoration: none;
-  border-color: var(--button-background-color);
+  text-decoration: underline;
+  border-color: var(--button-background);
 }
 
 .icon-form {
