@@ -133,7 +133,6 @@
       <!=========== Team =============>
       <section class="section-team">
         <h2 class="section-title">Наша команда</h2>
-
         <div class="container">
           <ul class="team-flex">
             <li class="team-cards">
@@ -403,7 +402,43 @@
     </footer> 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button type="button" class="modal-close-btn" data-modal-close >
+        <!-- Модальна форма -->
+        <form class="modal-form">
+          <div class="form-group">
+         <p class="form-title">Залиште свої дані, ми вам передзвонимо</p>
+ <label class="label-form">Ім'я
+  <div class="inputs"> 
+    <input class="input" type="text" name="username"/><svg class="icon-form" width="18" height="18"><use href="./images/icons.svg#icon-person-black"></use></svg> 
+   </div>
+  </label>
+  <label class="label-form">
+    Телефон
+    <div class="inputs"> 
+    <input class="input" type="tel" name="telephone" /><svg class="icon-form" width="18" height="18"><use href="./images/icons.svg#icon-phone"></use></svg>
+    </div>
+  </label>
+  <label class="label-form">
+    Пошта
+    <div class="inputs"> 
+    <input class="input" type="email" name="E-mail" /><svg class="icon-form" width="18" height="18"><use href="./images/icons.svg#icon-email"></use></svg>
+    </div>
+  </label>
+  <label class="label-form">
+    Коментар
+    <div class="inputs"> 
+    <textarea class="textarea" name="comment" placeholder="Введіть текст">
+      </textarea>
+      </div>
+  </label>
+  <label class="checkbox-label">
+    <input class="checkbox" type="checkbox" name="info" checked />
+    <svg class="icon-checked" width="18" height="18"><use href="./images/icons.svg#icon-Vector"></use></svg>
+    Погоджуюся з розсилкою та приймаю 
+     <p class="modal-link" href="#"> Умови договору</p>
+  </label>
+  <button class="btn-modal" type="submit">Відправити</button>
+        </form>
+        <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="modal-close-icon">
             <use href="./images/icon.svg#icon-close" ></use>
           </svg>
@@ -411,7 +446,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
-    
   </body>
 </html>
 
