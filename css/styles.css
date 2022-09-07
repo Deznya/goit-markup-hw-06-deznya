@@ -662,11 +662,12 @@ button {
 
 .icon-footer {
   position: absolute;
-  display: flex;
-  align-items: center;
+  /* display: flex; */
+  /* align-items: center; */
   top: 13px;
   right: 28px;
   fill: var(--bg-header);
+  
 }
 /*===========Portfolio============*/
 
