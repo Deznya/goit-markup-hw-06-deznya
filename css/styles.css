@@ -587,13 +587,18 @@ button {
 }
 
 .email-input {
-  margin-top: 12px;
   margin-left: auto;
 }
 
 .modal-footer {
   display: flex;
+  gap: 12px;
 }
+
+.label {
+  margin-right: 12px;
+}
+
 .email-form {
   display: block;
   background-color: var(--hero-bg-color);
@@ -604,7 +609,6 @@ button {
   height: 50px;
   padding-left: 16px;
   padding-right: 16px;
-  margin-right: 12px;
 
   color: rgba(255, 255, 255, 0.6);
   font-family: "Roboto", sans-serif;
