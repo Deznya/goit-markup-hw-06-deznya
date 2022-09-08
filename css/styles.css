@@ -646,8 +646,7 @@ button {
   width: 200px;
   height: 50px;
   padding:10px;
-  padding-left: 28px;
-
+  /* padding-left: 28px; */
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -659,11 +658,12 @@ button {
 }
 
 .icon-footer {
-  position: absolute;
+  /* position: absolute;
   display: flex;
+  flex-wrap: nowrap ;
   align-items: center;
   top: 13px;
-  right: 28px;
+  right: 28px; */
   fill: var(--bg-header);
 }
 /*===========Portfolio============*/
