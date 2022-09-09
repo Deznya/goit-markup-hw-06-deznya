@@ -563,6 +563,10 @@ button {
   background-color: var(--nav-hover-color);
 }
 
+.footer-secondary-box {
+  margin: auto;
+}
+
 .social-box-link:hover .social-icon,
 .social-box-link:focus .social-icon {
   fill: var(--hero-color);
@@ -584,6 +588,10 @@ button {
 }
 .footer-main-box {
   margin-right: 70px;
+}
+
+.subscribe-form {
+
 }
 
 .email-input {
@@ -657,12 +665,7 @@ button {
 }
 
 .icon-footer {
-  /* position: absolute;
-  display: flex;
-  flex-wrap: nowrap ;
-  align-items: center;
-  top: 13px;
-  right: 28px; */
+  margin-left: 10px;
   fill: var(--bg-header);
 }
 /*===========Portfolio============*/
@@ -812,7 +815,8 @@ button {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 528px;
-  height: 581px;
+  min-height: 581px;
+  padding: 40px;
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -859,7 +863,6 @@ margin-bottom: 12px;
 .form-group {
   display: flex;
   flex-direction: column;
-  margin: 40px;
   margin-bottom: 20px;
 }
 
@@ -997,11 +1000,8 @@ margin-bottom: 12px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-
   letter-spacing: 0.06em;
-
   color: var(--footer-logo-color);
-
   background: var(--button-background);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -1009,7 +1009,6 @@ margin-bottom: 12px;
   padding: 10px 52px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 40px;
   border: none;
   cursor: pointer;
   transition-property: background-color;
