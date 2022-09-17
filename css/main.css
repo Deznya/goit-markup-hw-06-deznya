@@ -729,13 +729,11 @@ li {
   display: none;
   fill: var(--main-light-color);
 }
-
-.contact-form-check:checked + .form-checkbox-icon {
+.contact-form-check:checked + .form-checkbox-won-icon {
   background-color: var(--current-color);
   border: var(--current-color);
 }
-
-.contact-form-check:checked + .form-checkbox-icon > .form-checkbox-won-icon {
+.contact-form-check:checked + .form-checkbox-icon .form-checkbox-won-icon {
   display: block;
 }
 
@@ -756,7 +754,6 @@ li {
 
 .contact-form-input {
   display: block;
-  /* margin-bottom: 10px; */
   width: 100%;
   height: 40px;
   border: 1px solid var(--contact-form-input-border);
@@ -764,9 +761,7 @@ li {
   padding-left: 42px;
   transition: var(--transition-dur-and-func);
 }
-
-.contact-form-input:hover + .modal-form-input-icon,
-.contact-form-input:focus + .modal-form-input-icon {
+.contact-form-input:hover + .modal-form-input-icon, .contact-form-input:focus + .modal-form-input-icon {
   fill: var(--current-color);
 }
 
@@ -779,17 +774,13 @@ li {
   border-radius: 4px;
   transition: var(--transition-dur-and-func);
 }
-
 .contact-form-massage::placeholder {
   font-size: 12px;
   line-height: 1.2;
   letter-spacing: 0.01em;
   color: var(--form-massage-placeholder);
 }
-
-/* .contact-form-massage:hover, */
-.contact-form-massage:focus,
-.contact-form-massage:hover {
+.contact-form-massage:focus, .contact-form-massage:hover {
   outline: none;
   border-color: var(--current-color);
 }
